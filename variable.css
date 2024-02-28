@@ -1,0 +1,11 @@
+:root{
+    --font-primery: #ffffff;
+    --font-purple: #5F42D4;
+    --font-green: rgb(70, 177, 165);
+    --font-black: rgb(23, 23, 23);
+    --font-orange: #FE9604;
+    --font-gray: #7C7C7C;
+    --bg-gray: rgb(245, 245, 245);
+    --bg-section:  #E9E8E8;
+    --bg-black: #151515;
+}
