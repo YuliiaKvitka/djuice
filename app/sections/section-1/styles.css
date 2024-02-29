@@ -163,4 +163,36 @@ filter: blur(172.1px);
 background: rgb(23, 23, 23);
 z-index: 30;
 };
-   
+
+.author p{
+color: rgb(255, 255, 255);
+font-family: SF Pro Text, sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: -2%;
+text-align: center;
+
+}
+.author{
+    color: rgb(255, 255, 255);
+    font-family: SF Pro Text, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -2%;
+    text-align: center;
+    border-radius: 10px;
+    backdrop-filter: blur(70px); 
+    background-color: rgba(66, 66, 66, 0.31); 
+}
+
+.digital_block{
+color: rgb(0, 0, 0);
+font-family: Manrope, sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
