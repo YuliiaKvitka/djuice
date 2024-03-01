@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import './styles.css';
 import { IoIosArrowForward } from "react-icons/io";
+import Header from '@/app/common/header/Header';
 
 const Hero = () => {
   return (
     <section className=" relative hero_section  bg-[--bg-black] rounded-b-[15px]">
+      <Header/>
       
       <div className='flex'>
         <div className='hero-content flex flex-col w-[694px]'>

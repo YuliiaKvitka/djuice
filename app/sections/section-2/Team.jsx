@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import './styles.css';
 import { IoIosArrowForward } from "react-icons/io";
 
 const Team = () => {
