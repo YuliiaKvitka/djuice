@@ -74,7 +74,7 @@ const Team = () => {
       <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>ОП</h4> <p className='text-[#7C7C7C]'>50+ продажников</p>
       </div>
 
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Програмисты</h4> <p className='text-[#7C7C7C]'>Digital twin / тонченжер записи курсов ИИ платформа с ИИ</p>
+      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Программисты</h4> <p className='text-[#7C7C7C]'>Digital twin / тонченжер записи курсов ИИ платформа с ИИ</p>
       </div>
 
 
