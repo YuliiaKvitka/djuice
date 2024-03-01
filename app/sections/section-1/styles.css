@@ -65,29 +65,26 @@ bottom: -190px; */
    
 }
 .label_orange{
-    /* Rectangle 5 */
+/* Rectangle 5 */
 position: absolute;
-content: '';
 width: 111.8px;
 height: 42px;
-/* left: 0; */
-left: 96px; 
-right: -89.84px;
-/* top: 10px; */
-top: 235px; 
-bottom: -194.86px;
+left: 50px;
+
+top:242px;
+
 transform: rotate(-11.59deg);
 border-radius: 10px;
+
 background: rgb(254, 150, 4);
 color: rgb(255, 255, 255);
-font-family: Manrope, sans-serif;
+font-family: Manrope;
 font-size: 20px;
 font-weight: 700;
 line-height: 120%;
 letter-spacing: 0%;
 text-align: center;
 text-transform: uppercase;
-padding: 11px 17px;
 }
 .hero_list{
 /* 123 */
