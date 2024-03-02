@@ -3,6 +3,40 @@ import './styles.css';
 import { IoIosArrowForward } from "react-icons/io";
 import Header from '@/app/common/header/Header';
 
+
+const items=[
+  {
+    "id": 1,
+    "img": '/assets/img/icon-1.png',
+    "description": "За 2023 «отлито» на трафик больше 3 млн $"
+  },
+  {
+    "id": 2,
+    "img": '/assets/img/icon-2.png',
+    "description": "Автоматизированный запуск MVP версии за 14 дней"
+  },
+  {
+    "id": 3,
+    "img": '/assets/img/icon-3.png',
+    "description": "50+ профессионалов в команде"
+  },
+  {
+    "id": 4,
+    "img": '/assets/img/icon-4.png',
+    "description": "Средний ROMI по проектам +300-500%"
+  },
+  {
+    "id": 5,
+    "img": '/assets/img/icon-5.png',
+    "description": "10+ популярных ниш с проверенной экспертизой по запускам"
+  },
+  {
+    "id": 6,
+    "img": '/assets/img/icon-6.png',
+    "description": "5+ млн $ заработано экспертам по всем продуктам за 2023"
+  },
+]
+
 const Hero = () => {
   return (
     <section className=" relative hero_section  bg-[--bg-black] rounded-b-[15px]">
@@ -71,24 +105,17 @@ const Hero = () => {
   
 
     </div>
+
+    {/* ============================================================================== */}
     <div className='absolute w-[1394px] h-[522px] ml-[24px] mr-[22px] bg-[#ffffff] rounded-[15px] z-[50]'>
       <h2 className='text-center h2_title mt-[32px] mb-[80px]'><span className='font-extrabold	'>Цифры </span>о нас</h2>
       <div className='digital_block grid  grid-cols-3 gap-x-[92px] gap-y-[80px] ml-[82px] mr-[75px]' >
-       
-          <div className='grid grid-cols-[80px_276px] items-center gap-[18px] w-[374px] h-[80px] text-balance '><Image src='/assets/img/icon-1.png' alt='' width={80} height={80} /><p>За 2023 «отлито» на трафик больше 3 млн $</p></div>
 
-          <div className='grid grid-cols-[80px_276px] items-center gap-[18px] w-[374px] h-[80px] text-balance'><Image src='/assets/img/icon-2.png' alt='' width={80} height={80} /><p>Автоматизированный запуск MVP версии за 14 дней</p> </div>
+      {items.map((item) => (
+                <div key={item.id} className='grid grid-cols-[80px_276px] items-center gap-[18px] w-[374px] h-[80px] text-balance'><Image src={item.img} alt='' width={80} height={80} /><p>{item.description}</p></div>
+            ))}
 
-          <div className='grid grid-cols-[80px_276px] items-center gap-[18px] w-[374px] h-[80px] text-balance'><Image src='/assets/img/icon-3.png' alt='' width={80} height={80} /><p>50+ профессионалов в команде</p></div>
-
-          <div className='grid grid-cols-[80px_276px] items-center gap-[18px] w-[374px] h-[80px] text-balance'><Image src='/assets/img/icon-4.png' alt='' width={80} height={80} /><p>Средний ROMI по проектам +300-500%</p></div>
-
-          <div className='grid grid-cols-[80px_276px] items-center gap-[18px] w-[374px] h-[80px] text-balance'><Image src='/assets/img/icon-5.png' alt='' width={80} height={80} /><p>10+ популярных ниш
-с проверенной экспертизой по запускам</p></div>
-
-          <div className='grid grid-cols-[80px_276px] items-center gap-[18px] w-[374px] h-[80px] text-balance'><Image src='/assets/img/icon-6.png' alt='' width={80} height={80} /><p>5+ млн $ заработано экспертам по всем продуктам за 2023</p></div>
-     
-     </div>
+    </div>
 
     </div>
     </section>

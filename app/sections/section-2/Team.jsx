@@ -1,5 +1,84 @@
+import TeamCard from '@/app/common/team-card/TeamCard';
 import Image from 'next/image';
 import { IoIosArrowForward } from "react-icons/io";
+
+const items=[
+  {
+    "id": 1,
+    "title": "Маркетологи" ,
+    "description":"Оптимизация холодного трафика через воронки, прогрев через телеграм и Instagram",
+  },
+  {
+    "id": 2,
+    "title": "Методологи" ,
+    "description":"распаковка экспертности и запаковка в курс обучения с элементами геймификации и пошаговым планом",
+  },
+  {
+    "id": 3,
+    "title": "HR" ,
+    "description":"Подбор кадров и проведение обучения для различных позиций в онлайн-школе",
+  },
+  {
+    "id": 4 ,
+    "title": "Оптимизаторы + интеграторы" ,
+    "description":"ИТ решения проверенные на СRM LMS телефония",
+  },
+  {
+    "id": 5 ,
+    "title": "Работа с блогерами" ,
+    "description": "3000 всего, база 600 — это 1 млн / по Укр",
+  },
+  {
+    "id": 6 ,
+    "title": "SERM" ,
+    "description":"380 форумов под UA",
+  },
+  {
+    "id": 7 ,
+    "title": "Социальные сети" ,
+    "description":"Использование различных платформ для распространения контента и привлечения аудитории",
+  },
+  {
+    "id": 8 ,
+    "title": "Юристы" ,
+    "description":"Полное сопровождение под ключ и защита репутации в сети",
+  },
+  {
+    "id": 9 ,
+    "title": "Финансы" ,
+    "description":"Умение правильно принимать деньги",
+  },
+  {
+    "id": 10 ,
+    "title": "Отдел возвратов" ,
+    "description":"10+ менеджеров которые умеют сохранить деньги в компании и не отпустить с негативом ученика",
+  },
+  {
+    "id": 11 ,
+    "title": "Отдел заботы" ,
+    "description":"Персональные менеджеры помогут решить любой индивидуальный вопрос",
+  },
+  {
+    "id": 12 ,
+    "title": "Кураторы" ,
+    "description":"Команда кураторов по обучению и сопровождению учеников",
+  },
+  {
+    "id": 13 ,
+    "title": "Ресерч команда" ,
+    "description":"Поиск экспертов и база 1000+ в 15 разных нишах",
+  },
+  {
+    "id": 14 ,
+    "title": "ОП" ,
+    "description":"50+ продажников",
+  },
+  {
+    "id": 15 ,
+    "title": "Программисты" ,
+    "description":"Digital twin / тонченжер записи курсов ИИ платформа с ИИ",
+  },
+]
 
 const Team = () => {
   return (
@@ -29,53 +108,10 @@ const Team = () => {
 
       <div className='grid  grid-cols-2 grid-row-8 gap-x-[23px]  '>
 
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px] '><h4 className='text-[#ffffff] mb-[10px]'>Маркетологи</h4> <p className='text-[#7C7C7C]'>Оптимизация холодного трафика через воронки, прогрев через телеграм и Instagram</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Методологи</h4> <p className='text-[#7C7C7C]'>распаковка экспертности и запаковка в курс обучения с элементами геймификации и пошаговым планом</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>HR</h4> <p className='text-[#7C7C7C]'>Подбор кадров и проведение обучения для различных позиций в онлайн-школе</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Оптимизаторы + интеграторы</h4> <p className='text-[#7C7C7C]'>ИТ решения проверенные на СRM LMS телефония</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Работа с блогерами</h4> <p className='text-[#7C7C7C]'>3000 всего, база 600 — это 
-1 млн / по Укр</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>SERM</h4> <p className='text-[#7C7C7C]'>380 форумов под UA</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Социальные сети </h4> <p className='text-[#7C7C7C]'>Использование различных платформ для распространения контента и привлечения аудитории</p>
-      </div>
-
-   
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Юристы</h4> <p className='text-[#7C7C7C]'>Полное сопровождение под ключ и защита репутации в сети</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Финансы</h4> <p className='text-[#7C7C7C]'>Умение правильно принимать деньги</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Отдел возвратов</h4> <p className='text-[#7C7C7C]'>10+ менеджеров которые умеют сохранить деньги в компании и не отпустить с негативом ученика</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Отдел заботы</h4> <p className='text-[#7C7C7C]'>Персональные менеджеры помогут решить любой индивидуальный вопрос</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Кураторы</h4> <p className='text-[#7C7C7C]'>Команда кураторов по обучению и сопровождению учеников</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Ресерч команда</h4> <p className='text-[#7C7C7C]'>Поиск экспертов и база 1000+ в 15 разных нишах</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>ОП</h4> <p className='text-[#7C7C7C]'>50+ продажников</p>
-      </div>
-
-      <div className='w-[299px] h-[190px] ring-[1px] ring-[#343434] items-center gap-[18px]  pl-[34px] pr-[19px] pb-[32px] pt-[36px]'><h4 className='text-[#ffffff] mb-[10px]'>Программисты</h4> <p className='text-[#7C7C7C]'>Digital twin / тонченжер записи курсов ИИ платформа с ИИ</p>
-      </div>
+      {items.map((item) => (
+                <TeamCard key={item.id}   title={item.title} description={item.description} />
+            ))}
+     
 
 
 
