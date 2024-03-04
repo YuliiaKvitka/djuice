@@ -5,7 +5,7 @@ const Expertise = () => {
     return (
     <section className='expertise_section mt-[81px]'>
 
-        <div className=' flex flex-col ml-[22px] mr-[22px] rounded-[15px] bg-[#151515] w-[1396px] h-[4000px]  '>
+        <div className=' relative flex flex-col ml-[22px] mr-[22px] rounded-[15px] bg-[#151515] w-[1396px] h-[4000px] z-20 '>
             {/* ============================================= */}
             <div className='relative mb-[131px] ml-[53px] w-[1290px] h-[991px] '>
                     <h2 className='absolute left-[495px] top-[606px] text-center leading-[40px] tracking-[2%] w-[364px] h-]134px] text-[31px] font-medium	 text-[#ffffff]'><span className='font-extrabold'>Что нас отличает</span> от других компаний на рынке</h2>
@@ -69,12 +69,13 @@ const Expertise = () => {
                 <div className='mt-[72px] mx-[118px] h-[500px] '>
 {/* ======================================================================== */}
                     <div className=' bg-[#111111] box-border grid grid-cols-2 border-[1px] border-[--font-gray] rounded-[10px] mb-[40px]'>
-                        <div className='ml-[33px]'>
+                        <div className='relative ml-[33px]'>
                             <div className='w-[460px] h-[420px] mt-[60px]'>
                                 <h3 className='text-[#ffffff] text-[39px] font-bold leading-5 '>Нет команды</h3>
                                 <p className='text-[#7C7C7C] mt-[30px] mb-[120px] w-[359px] text-balance'>Проверенных подрядчиков, профессионалов в своих нишах</p>
                                 <div className='text-[#ffffff] bg-[#5F42D4] rounded-[5px] py-[5px] w-[130px] h-[39px] text-center text-[20px] font-medium'>Решение:</div>
                                 <p className='text-[#ffffff] text-[20px] font-medium leading-[30px] mt-[10px]'>Недостаточно свободных средств для тестов, инвестиций и создания смежных продуктов, которые расширят продуктовую линейку и дадут возможность диверсифицироваться</p>
+
     
                             </div>
     
@@ -85,7 +86,7 @@ const Expertise = () => {
     
                     </div>
 {/* ========================================================================================= */}
-                    <div className=' bg-[#111111] box-border grid grid-cols-2 border-[1px] border-[--font-gray] rounded-[10px] mb-[40px]'>
+                    <div className=' bg-[#111111] box-border grid grid-cols-2 border-[1px] border-[--font-gray] rounded-[10px] mb-[40px] '>
 
                     <div className='p-[20px]'>
                             <Image src='/assets/img/img-experts-2.png' alt='' width={550} height={460}/>
