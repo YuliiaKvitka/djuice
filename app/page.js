@@ -6,6 +6,7 @@ import Team from "./sections/section-2/Team";
 import Expertise from "./sections/section-4/Expertise";
 import Collaboration from "./sections/section-5/Collaboration";
 import Cases from "./sections/section-6/Cases";
+import Work from "./sections/section-7/Work";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Expertise/>
         <Collaboration/>
         <Cases/>
+        <Work/>
   
     </main>
   );
