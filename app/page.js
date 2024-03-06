@@ -7,6 +7,12 @@ import Expertise from "./sections/section-4/Expertise";
 import Collaboration from "./sections/section-5/Collaboration";
 import Cases from "./sections/section-6/Cases";
 import Work from "./sections/section-7/Work";
+import Money from "./sections/section-8/Money";
+import Result from "./sections/section-9/Result";
+import Partner from "./sections/section-10/Partner";
+import Faq from "./sections/section-11/Faq";
+import End from "./sections/section-12/End";
+import Footer from "./common/footer/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +25,12 @@ export default function Home() {
         <Collaboration/>
         <Cases/>
         <Work/>
+        <Money/>
+        <Result/>
+        <Partner/>
+        <Faq/>
+        <End/>
+        <Footer/>
   
     </main>
   );

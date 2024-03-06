@@ -1,0 +1,24 @@
+.money{
+    position: relative;
+    width: 1256px;
+    height: 584px;
+    box-sizing: border-box;
+    border: 50px solid transparent;
+    border-radius: 339px;
+}
+.money::before{
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: 25.5%;
+    width: 576px;
+    height: 584px;
+    background: transparent;
+    border-top-left-radius: 339px;
+    border-bottom-left-radius: 339px;
+    border: 50px solid  #ffffff;
+    border-right: none;
+   
+  
+   
+}
